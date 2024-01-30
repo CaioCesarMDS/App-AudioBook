@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/images/logo.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/85a1987996.js" crossorigin="anonymous"></script>
+
+    <title>App AudioBook</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./src/images/dom-casmurro.jpeg" alt="img-dom-casmurro">
+        <div class="informations">
+            <p id="chapter">Capítulo 1</p>
+            <p>Machado de Assis</p>
+        </div>
+        <audio src="./src/books/dom-casmurro/1.mp3" id="audio"></audio>
+        <div class="container-btn">
+            <button id="return" class="fa-solid fa-backward"></button>
+            <button id="prev" class="fa-solid fa-forward-step"></button>
+            <button id="play-pause" class="fa-solid fa-circle-play"></button>
+            <button id="next" class="fa-solid fa-forward-step"></button>
+            <button id="forward" class="fa-solid fa-forward"></button>
+        </div>
+        <div class="accelerate-btns">
+            <div id="btn05" class="btn">
+                0.5x
+            </div>
+            <div id="btn1" class="btn">
+                1x
+            </div>
+            <div id="btn15" class="btn">
+                1.5x
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

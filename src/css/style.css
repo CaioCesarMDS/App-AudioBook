@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", "Arial";
+}
+
+body {
+    background-image: linear-gradient(#3b1566, #5f4da8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #d6d6ea;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#return,
+#forward {
+    font-size: 1.5rem;
+}
+
+#prev {
+  transform: rotateY(180deg);
+}
+
+#prev, #next {
+  font-size: 2.5rem;
+}
+
+#play-pause {
+    font-size: 4rem;
+}
+
+.container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.accelerate-btns {
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.accelerate-btns div {
+  text-align: center;
+  color: #000000;
+  width: 50px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.accelerate-btns div.selected {
+  background-color: #eeeeee;
+} 
